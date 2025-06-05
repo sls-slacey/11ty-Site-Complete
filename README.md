@@ -12,11 +12,43 @@ If you have different preferred browser targets, be sure to modify the package `
 
 <small>Created by [@5t3ph](https://front-end.social/@5t3ph)</small>
 
+## Quick Start
+
+1. **Clone the repository**
+
+   ```bash
+   git clone <repository-url>
+   cd 11ty-Site-Complete
+   ```
+
+2. **Install dependencies**
+
+   ```bash
+   npm install
+   ```
+
+3. **Start development server**
+
+   ```bash
+   npm start
+   ```
+
+   The site will be available at `http://localhost:8081` with:
+
+   - ✅ SCSS compiled to CSS automatically
+   - ✅ Images and static assets served properly
+   - ✅ Hot reload on file changes
+
+4. **Build for production**
+   ```bash
+   npm run build
+   ```
+
 ## Development Scripts
 
 **`npm start`**
 
-> Run 11ty with hot reload at localhost:8080, including reload based on Sass changes
+> Run 11ty with hot reload at localhost:8081, including reload based on Sass changes
 
 **`npm run build`**
 
