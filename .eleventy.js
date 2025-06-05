@@ -10,6 +10,11 @@ module.exports = function(eleventyConfig) {
   // Copy any JavaScript files if they exist
   eleventyConfig.addPassthroughCopy("src/js");
   
+  // Copy Bootstrap Icons font files
+  eleventyConfig.addPassthroughCopy({
+    "node_modules/bootstrap-icons/font/fonts": "fonts"
+  });
+  
   // Copy favicon and other root assets
   eleventyConfig.addPassthroughCopy("src/favicon.ico");
 

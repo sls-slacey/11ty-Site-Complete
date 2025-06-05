@@ -12,5 +12,7 @@
 @import "testimonial";
 @import "reservation";
 
-// Bootstrap Icons - import the CSS content
-@import "bootstrap-icons";
+// Bootstrap Icons - import from node_modules
+// Override the font directory to point to the correct path relative to the CSS output
+$bootstrap-icons-font-dir: "../fonts";
+@import "../../node_modules/bootstrap-icons/font/bootstrap-icons";
