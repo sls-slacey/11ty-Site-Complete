@@ -25,10 +25,25 @@ module.exports = {
     /^border-/,
     /^p[xytrbl]?-/,
     /^m[xytrbl]?-/,
-    // Bootstrap Icons classes - only keep the base icon class
-    // Individual icon classes (bi-*) will be tree-shaken based on usage
+    // Bootstrap Icons classes - only keep the base icon class and used icons
     'bi',
-    /^bi-/,
+    // Specific Bootstrap icons used in the site
+    'bi-clock',
+    'bi-dish', 
+    'bi-envelope',
+    'bi-facebook',
+    'bi-geo-alt',
+    'bi-house-door',
+    'bi-info-circle', 
+    'bi-instagram',
+    'bi-menu-button-wide',
+    'bi-people',
+    'bi-person-check',
+    'bi-quote',
+    'bi-search',
+    'bi-telephone',
+    'bi-twitter',
+    'bi-youtube',
     // Add your custom classes here
   ],
 
